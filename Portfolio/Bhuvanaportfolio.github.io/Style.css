@@ -1,0 +1,419 @@
+*{
+    font-family: 'Nutino', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .5s linear;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+
+header{
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;right: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+header .navigation{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+header .navigation a{
+    font-size: 18px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 7px;
+    color: white;
+}
+header a{
+    border-bottom: 2px solid grey;
+}
+header .navigation a i{
+    margin-right: 10px;
+}
+
+.intro{
+    background-color: black;
+    margin-top: 3rem;
+}
+section .container{
+    display: flex;
+}
+.container .image{
+    padding: 5rem;
+}
+.container .image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 7px -5px 10px rgb(199, 201, 177);
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+hr{
+    color: white;
+    border-bottom: 1px solid rgb(59, 57, 57);
+    width: 600px;
+
+}
+.education  hr,
+.certifications hr,
+.projects hr{
+    border-bottom: 1px solid rgb(33, 32, 32);
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.details{
+    color: white;
+    margin-top: 10rem;
+    padding-right: 20px;
+}
+.details h3{
+    font-size: 36px;
+    padding: 15px 1px; 
+}
+.details p{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.7rem;
+}
+.heading{
+    font-size: 35px;
+    color: tomato;
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+.education .headings{
+    font-size: 20px;
+    color: tomato;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid rgb(16, 15, 15);
+}
+.education{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.education .box-container{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.education .box-container .box{
+    width: 350px;
+    border-radius: .5rem;
+    background-color: var(--white);
+    padding: 1rem;
+    transition: .2s linear;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.education .box-container .data{
+    display: flex;
+}
+.education .box-container .image i{
+    font-size: 5rem;
+    padding: 10px;
+    color: tomato;
+    margin-top: 2rem;
+    align-items: center;
+}
+.education .box-container .content{
+    padding: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.education .box-container .content h4{
+    padding: 10px;
+    font-size: 15px;
+}
+.education .box-container .content p{
+    padding: 5px;
+    font-size: 15px;
+    
+}
+
+.skills{
+    background-color: black;
+    
+}
+
+.skills .heading
+.Internships .heading{
+    color: white;
+}
+.skills hr,
+.Internships hr{
+    color: white;
+    border-bottom: 1px solid rgb(59, 57, 57);
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.skills .box-container{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.skills .box-container .box{
+    width: 350px;
+    border-radius: .5rem;
+    background-color:  black;
+    color: aliceblue;
+    padding: 1rem;
+    transition: .2s linear;
+    border: 1px solid rgba(32, 33, 31, 0.854);
+    box-shadow: 5px 5px 5px 5px  rgba(48, 174, 188, 0.2);
+}
+
+.skills .box-container .box .sklicons i{
+    font-size: 40px;
+    padding: 15px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    color: tomato;
+}
+.skills .box-container .box h3{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+.skills .box-container .box .container{
+    width: 100%; /* Full width */
+    background-color: #ddd;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.skills .box-container .box .skill{
+    text-align: right; 
+    color: white;
+    height: 3px;
+}
+.html{
+    width: 90%; 
+    background-color: tomato;
+
+}
+.skills .box-container .box p{
+    line-height: 2rem;
+}
+.certifications .images{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.certifications .images img{
+    width: 400px;
+    padding: 20px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px  rgba(35, 35, 35, 0.2);
+}
+.certifications .images h2{
+    padding: 15px;
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: tomato;
+}
+
+.certifications .images a{
+    background-color: rgb(205, 19, 137);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.Internships{
+    background-color: black;
+}
+.Internships .heading{
+    color: white;
+}
+.Internships .box-container{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+.Internships .box{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Internships .data{
+    display: flex;
+    background-color: white;
+    width: 800px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px  rgba(189, 21, 189, 0.45);
+}
+.Internships .image{
+ 
+    padding: 10px;
+
+}
+.Internships .image img{
+    width: 350px;
+}
+.Internships .box-container .content{
+    color:tomato;
+    margin-top: 4rem;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.Internships .box-container .content h4{
+    font-size: 38px;
+    padding: 10px;
+    color: rgb(27, 183, 194);
+}
+.Internships .box-container .content p{
+    padding: 10px;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.projects .box-container{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.projects .box-container .box{
+    width: 400px;
+    padding: 30px;
+    margin-bottom: 5rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px 5px  rgba(35, 35, 35, 0.2);
+}
+.projects .box-container .box .image img{
+    width: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px  rgba(35, 35, 35, 0.2);
+}
+
+.projects .box-container .box h3{
+    font-size: 20px;
+    color: tomato;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.projects .box-container .box p{
+    font-size: 18px;
+    color: black;
+    line-height: 1.5rem;
+}
+.projects .box-container .box a{
+    background-color: rgb(205, 19, 137);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 17px;
+    border-radius: 15px;
+}
+.contact{
+    background-color: black;
+}
+.contact .box-container{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+.contact .box-container .box{
+    color: white;
+    padding: 20px;
+    margin-right: 8rem;
+    margin-left: 8rem;
+}
+.contact .box-container .box h2{
+    font-size: 28px;
+    padding: 20px;
+}
+.contact .box-container .box p{
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.5rem;
+    text-transform: lowercase;
+}
+.contact .box-container .box a{
+    background-color: tomato;
+    color: white;
+    padding: 12px;
+    text-align: center;border-radius: 15px;
+    align-items: center;
+    line-height: 1.5rem;
+}
